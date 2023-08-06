@@ -1,0 +1,30 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+shapely = "*"
+scikit-image = "*"
+imgaug = "*"
+pyclipper = "*"
+lmdb = "*"
+tqdm = "*"
+numpy = "*"
+visualdl = "*"
+rapidfuzz = "*"
+opencv-python = "==4.6.0.66"
+opencv-contrib-python = "==4.6.0.66"
+cython = "*"
+lxml = "*"
+premailer = "*"
+openpyxl = "*"
+attrdict = "*"
+polygon3 = "*"
+lanms-neo = "==1.0.2"
+pymupdf = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.11"
